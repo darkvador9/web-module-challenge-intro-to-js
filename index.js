@@ -19,7 +19,10 @@ Do the following:
 
    HINT: no function required
 */
-
+const votingAge = 18;
+if(age < 18) {
+  console.log('true!');
+}
 
 
 /*
@@ -33,7 +36,13 @@ Do the following:
 
    HINT: no function required
 */
-
+var firstThing = 15;
+let secondThing = 0;
+if(number < 15){
+  console.log('True!');
+} else if(number > 15){
+  console.log('False!');
+}
 
 
 
@@ -48,8 +57,11 @@ Do the following:
 
    HINT: look up the Number method
 */
-
-
+var numbers = 1999;
+function myFunction(){
+  console.log(3998 % 2)
+}
+myFunction()
 
 
 /*
